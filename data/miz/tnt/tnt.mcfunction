@@ -1,4 +1,4 @@
-# miz:tnt
+#> miz:tnt/tnt
 # 足元TNT
 
 ## 足元のブロックが以下じゃなければ TNTに置き換える
