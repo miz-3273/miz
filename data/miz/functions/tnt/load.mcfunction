@@ -1,4 +1,4 @@
-#> miz:load
+#> miz:tnt/load
 # reloadした時に一度だけ読み込んでほしい処理
 
 ## 一度消す？
