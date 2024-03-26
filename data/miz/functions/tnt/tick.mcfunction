@@ -3,3 +3,4 @@
 
 ## 足元がtntになる仕組みをくりかえす
 execute as @a[tag=tnt] at @s run function miz:tnt/tnt
+execute as @a[tag=tnt] at @s run function miz:tnt/summon_tnt
