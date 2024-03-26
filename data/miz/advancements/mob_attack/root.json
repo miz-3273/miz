@@ -1,0 +1,16 @@
+{
+    "display": {
+        "title": "",
+        "description": "",
+        "icon": {
+        "item": "minecraft:air"
+        
+        }
+    },
+    "criteria": {
+        "": {
+        "trigger": "minecraft:impossible"
+        
+        }
+    }
+}
