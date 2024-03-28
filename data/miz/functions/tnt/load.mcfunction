@@ -1,7 +1,7 @@
 #> miz:tnt/load
-# reloadした時に一度だけ読み込んでほしい処理
+# 一度だけ読み込んでほしい処理
 
-## 一度消す？
+## 前作ってたやつ念のため一度消す
 scoreboard objectives remove tnt_damage
 
 ## プレイヤーが受けるダメージをとるスコアボード「tnt_damage」を作成
