@@ -1,11 +1,8 @@
 #> miz:no_stop/no_stop
 # 15秒止まったら爆発
 
-# 15秒止まったら、足元に着火したTNTを召喚する
-## プレイヤーの動きが止まったことを検知してタイマー開始
-# execute as @s{Motion:[1.0d,0.3d,-1.0d]} run summon minecraft:tnt ~ ~-1 ~
+## 動かなくなったらスコアボード「no_stop_timer」に1ずつ加算して、
+execute if entity @s[nbt={Motion:[0.0d,-0.0784000015258789d,0.0d]}] run function miz:no_stop/timer_ban
 
-## タイマーが設定時間に到達したら足元に爆発寸前のTNTを召喚する
-execute as @s 
-
-execute unless entity @s[nbt={Motion:0,0,0}] as @s[scores={wasd.temp=3}] run function wasd.stop_you_die:__generated__/block/0
+## 動いたらスコアボード「no_stop_count」をリセットする
+execute unless entity @s[nbt={Motion:[0.0d,-0.0784000015258789d,0.0d]}] run scoreboard players reset @s no_stop_count
