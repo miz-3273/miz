@@ -1,5 +1,6 @@
 {
   "values": [
-    "miz:tnt/load"
+    "miz:tnt/load",
+    "miz:no_stop/load"
   ]
 }

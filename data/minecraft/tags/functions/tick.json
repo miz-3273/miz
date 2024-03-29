@@ -1,5 +1,6 @@
 {
   "values": [
-    "miz:tnt/tick"
+    "miz:tnt/tick",
+    "miz:no_stop/tick"
   ]
 }
