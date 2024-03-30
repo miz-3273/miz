@@ -20,7 +20,11 @@
     "minecraft:cave_air",
     "minecraft:void_air",
     "minecraft:obsidian",
+    "minecraft:crying_obsidian",
     "minecraft:water",
-    "minecraft:end_portal_frame"
+    "minecraft:end_portal_frame",
+    "minecraft:bedrock",
+    "minecraft:end_portal",
+    "minecraft:lava"
   ]
 }
